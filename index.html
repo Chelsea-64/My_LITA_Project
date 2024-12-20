@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <div>
+          <img src="images/logo.svg" alt="" />
+        </div>
+
+        <div class="navbar">
+          <div class="hamburger" id="hamburger">
+            <img src="images/icon-menu.svg" alt="" />
+          </div>
+
+          <div class="nav-links" id="nav-links">
+            <div>
+              <div id="features">
+                <a href="#">Features</a>
+                <img src="images/icon-arrow-down.svg" id="arrow" />
+  
+                <!-- Drop Down Menu -->
+                <div id="dropdown-content">
+                  <a href="#" class="item"
+                    ><img src="images/icon-todo.svg" alt="" />
+                    <span>Todo List</span></a
+                  >
+  
+                  <a href="#" class="item"
+                    ><img src="images/icon-calendar.svg" alt="" /><span
+                      >Calendar</span
+                    ></a
+                  >
+  
+                  <a href="#" class="item"
+                    ><img src="images/icon-reminders.svg" alt="" /><span
+                      >Reminders</span
+                    ></a
+                  >
+  
+                  <a href="#" class="item"
+                    ><img src="images/icon-planning.svg" alt="" /><span
+                      >Planning</span
+                    ></a
+                  >
+                </div>
+              </div>
+              <div id="company">
+                <a href="#">Company</a>
+                <img src="images/icon-arrow-down.svg" id="arrow-two" />
+  
+                <div id="dropdown-content-two">
+                  <p>History</p>
+                  <p>Our Team</p>
+                  <p>Blog</p>
+                </div>
+              </div>
+              <a href="#">Careers</a>
+              <a href="#">About</a>
+            </div>
+
+            <div class="login-register">
+              <a href="#">Login </a>
+              <a href="#" id="register">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="hero">
+        <div class="hero-text">
+          <h1>Make <br />remote work</h1>
+
+          <p>
+            Get your team in sync, no matter your location. <br />Streamline
+            processes, create team rituals, and <br />
+            watch productivity soar.
+          </p>
+
+          <a href="#" class="learn">Learn more</a>
+
+          <div>
+            <img src="images/client-databiz.svg" alt="" />
+            <img src="images/client-audiophile.svg" alt="" />
+            <img src="images/client-meet.svg" alt="" />
+            <img src="images/client-maker.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/image-hero-desktop.png" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
